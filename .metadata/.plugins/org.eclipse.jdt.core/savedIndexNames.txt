@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\pheli\OneDrive\Desktop\sistema_operacionais\.metadata\.plugins\org.eclipse.jdt.core
+123159381.index
+1884320707.index
+3914932857.index
+1865797976.index

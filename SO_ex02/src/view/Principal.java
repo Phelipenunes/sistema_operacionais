@@ -1,0 +1,14 @@
+package view;
+import javax.swing.JOptionPane;
+import controller.Metodos;
+public class Principal {
+	public static void main(String[] args){
+		Metodos m = new Metodos();
+		String texto1 = JOptionPane.showInputDialog("Digite o primeiro texto:");
+		String texto2 = JOptionPane.showInputDialog("Digite o segundo texto:");
+		String texto3 = JOptionPane.showInputDialog("Digite o terceiro texto:");
+		System.out.println("A quantidade de palavras do texto1 é de: "+m.qtdpalavras(texto1));
+		System.out.println("A quantidade de palavras do texto2 é de: "+m.qtdpalavras(texto2));
+		System.out.println("A quantidade de palavras do texto3 é de: "+m.qtdpalavras(texto3));
+	}
+}

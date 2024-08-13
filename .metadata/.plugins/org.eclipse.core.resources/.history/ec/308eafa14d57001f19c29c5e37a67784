@@ -1,0 +1,19 @@
+package view;
+import javax.swing.JOptionPane;
+import controller.Metodos;
+public class Principal {
+	public static void main(String[] args){
+		Metodos m = new Metodos();
+		String texto1 = JOptionPane.showInputDialog("Digite o primeiro texto:");
+		String texto2 = JOptionPane.showInputDialog("Digite o segundo texto:");
+		String texto3 = JOptionPane.showInputDialog("Digite o terceiro texto:");
+		System.out.println("A quantidade de palavras do texto é de: "+m.qtdpalavras(texto1));
+		System.out.println("A quantidade de palavras do texto é de: "+m.qtdpalavras(texto2));
+		System.out.println("A quantidade de palavras do texto é de: "+m.qtdpalavras(texto3));
+	}
+}
+/*
+abóbora;abobrinha;alcachofra;aspargos;batata-doce;berinjela;beterraba
+abacate;ameixa;amora;banana;cajá;figo;maçã;melancia;uva;seriguela;manga
+acelga;alface;alho-poró;coentro;endívia;escarola;repolho;rúcula;agrião
+*/

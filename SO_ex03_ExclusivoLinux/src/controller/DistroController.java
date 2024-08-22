@@ -7,7 +7,7 @@ public class DistroController {
 		super();
 	}
 	private String os(){
-		return System.getProperty("os.name");
+		return System.getProperty("os.name").toLowerCase();
 	}
 	public void exibeDistro() {
 		String So = os();

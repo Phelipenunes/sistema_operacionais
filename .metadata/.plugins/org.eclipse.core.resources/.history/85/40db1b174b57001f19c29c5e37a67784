@@ -1,9 +1,0 @@
-package view;
-import javax.swing.JOptionPane;
-public class Principal {
-	public static void main(String[] args){
-		String texto1 = JOptionPane.showInputDialog("Digite o primeiro texto:");
-		String texto2 = JOptionPane.showInputDialog("Digite o segundo texto:");
-		String texto3 = JOptionPane.showInputDialog("Digite o terceiro texto:");
-	}
-}

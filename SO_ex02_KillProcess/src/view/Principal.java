@@ -1,7 +1,7 @@
 package view;
 import controller.KillController;
 public class Principal {
-	public void main(String[] args){
+	public static void main(String[] args){
 		KillController m = new KillController();
 		int PID = 15760;
 		String nome =  "Spotify.exe";

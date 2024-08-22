@@ -7,7 +7,8 @@ public class Metodos {
 	public double vet1000(int vetor[]){
 		long tempoI = System.nanoTime();
 		for (int i = 0; i < vetor.length; i++) {
-            int valor = vetor[i]; // Ação simples para simular o percurso do vetor
+            @SuppressWarnings("unused")
+			int valor = vetor[i]; // Ação simples para simular o percurso do vetor
         }
 		long tempoF = System.nanoTime();
 		double tempo = tempoF - tempoI;
@@ -16,7 +17,8 @@ public class Metodos {
 	public double vet10000(int vetor[]){
 		long tempoI = System.nanoTime();
 		for (int i = 0; i < vetor.length; i++) {
-            int valor = vetor[i]; // Ação simples para simular o percurso do vetor
+            @SuppressWarnings("unused")
+			int valor = vetor[i]; // Ação simples para simular o percurso do vetor
         }
 		long tempoF = System.nanoTime();
 		double tempo = tempoF - tempoI;
@@ -25,7 +27,8 @@ public class Metodos {
 	public double vet100000(int vetor[]){
 		long tempoI = System.nanoTime();
 		for (int i = 0; i < vetor.length; i++) {
-            int valor = vetor[i]; // Ação simples para simular o percurso do vetor
+            @SuppressWarnings("unused")
+			int valor = vetor[i]; // Ação simples para simular o percurso do vetor
         }
 		long tempoF = System.nanoTime();
 		double tempo = tempoF - tempoI;

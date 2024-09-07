@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="controller.DistroController"/>
     <fullyQualifiedTypeName name="controller.KillController"/>
     <fullyQualifiedTypeName name="controller.RedesController"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="threads.Threands"/>
 </qualifiedTypeNameHistroy>

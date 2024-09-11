@@ -2,6 +2,7 @@ INDEX VERSION 1.134+C:\Users\pheli\OneDrive\Desktop\sistema_operacionais\.metada
 4231551503.index
 3404356169.index
 2688999427.index
+651334317.index
 123159381.index
 1697713077.index
 1485321627.index
